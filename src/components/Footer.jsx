@@ -54,7 +54,7 @@ const Footer = () => (
                     <a href="https://www.linkedin.com/in/gergely-horv%C3%A1th-a71850b6">
                         <i className="fa fa-linkedin" />
                     </a>
-                    <a href="https://github.com/GregorHorvatH">
+                    <a href="https://github.com/GregorHorvatH/React.RandomUsers">
                         <i className="fa fa-github" />
                     </a>
                 </div>
