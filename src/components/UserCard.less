@@ -1,0 +1,111 @@
+.user-card {
+  margin-bottom: 20px;
+
+  .user-details {
+    width: 100%;
+
+    .user-photo-wrapper {
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 10%;
+      padding: 5px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 1px solid rgba(0,0,0,.25);
+      background-color: #fff;
+      z-index: 1;
+
+      .user-photo {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+
+    .user-title {
+      color: #999;
+      font-size: 18px;
+      margin: 0;
+      margin-left: 120px;
+    }
+
+    .user-value {
+      color: #2c2e31;
+      margin: 5px;
+      text-transform: capitalize;
+      min-height: 40px;
+      word-break: break-word;
+      font-size: 1.5em;
+    }
+  }
+
+  .horizontal-line {
+    width: 100%;
+    display: block;
+    height: 75px;
+    background: #f9f9f9;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+  }
+
+  .values-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+
+    .value {
+      display: inline-block;
+      background-image: url("../../public/img/card_icons.png");
+      width: 40px;
+      height: 48px;
+      background-size: 378px;
+      transition: all .25s ease-out;
+    }
+
+    .userName {
+      background-position: 0 -48px;
+      &.active {
+        background-position: 0px -96px;
+      }
+    }
+
+    .userEmail {
+      background-position: -68px -48px;
+      &.active {
+        background-position: -68px -96px;
+      }
+    }
+
+    .userBirthday {
+      background-position: -135px -48px;
+      &.active {
+        background-position: -135px -96px;
+      }
+    }
+
+    .userAddress {
+      background-position: -203px -48px;
+      &.active {
+        background-position: -203px -96px;
+      }
+    }
+
+    .userPhone {
+      background-position: -270px -48px;
+      &.active {
+        background-position: -270px -96px;
+      }
+    }
+
+    .userPassword {
+      background-position: -338px -48px;
+      &.active {
+        background-position: -338px -96px;
+      }
+    }
+  }
+}
+
